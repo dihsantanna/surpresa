@@ -17,37 +17,30 @@ header {
 
 h1{
   font-size: 40px;
-  font-family: 'Dancing Script', cursive, sans-serif;
-  -webkit-animation: fadeIn 2s ease-in-out;
-  -moz-animation: fadeIn 2s ease-in-out;
-  -o-animation: fadeIn 2s ease-in-out;
-  animation: fadeIn 2s ease-in-out;  
+  font-family: 'Dancing Script', cursive, sans-serif;  
 }
 
 p {
   font-style: oblique;
   font-size: 18px;
-  margin-top: 20px;
-  -webkit-animation: fadeIn 2s ease-in-out;
-  -moz-animation: fadeIn 2s ease-in-out;
-  -o-animation: fadeIn 2s ease-in-out;
-  animation: fadeIn 2s ease-in-out;     
+  margin-top: 20px;   
 }
 
 #senha {
   margin-top: 50px;
-  -webkit-animation: fadeIn 1s ease-in-out;
-  -moz-animation: fadeIn 1s ease-in-out;
-  -o-animation: fadeIn 1s ease-in-out;
-  animation: fadeIn 1s ease-in-out;  
+  padding: 3px 5px 3px 5px;
+  text-align: center;
+  border-radius: 40px;
+  width: 200px;
+}
+
+input:focus {
+  box-shadow: 0 0 3px 3px rgb(174 , 213 , 226);
+  outline: 0;
 }
 
 #start {
   margin-top: 20px;
-  -webkit-animation: fadeIn 1s ease-in-out;
-  -moz-animation: fadeIn 1s ease-in-out;
-  -o-animation: fadeIn 1s ease-in-out;
-  animation: fadeIn 1s ease-in-out;
   background-color: rgb(174 , 213 , 226);
   padding: 5px;
   cursor: pointer;
@@ -56,4 +49,14 @@ p {
 
 .click:active {
   box-shadow: 0 0 3px 3px rgb(174 , 213 , 226);
+}
+
+.mural {
+  position: relative;
+  background-color: rgb(252 , 248 , 239);
+  left: 5%;
+  margin-top: 40%;
+  width: 370px;
+  height: 300px;
+  border-radius: 10px;
 }
