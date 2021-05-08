@@ -54,7 +54,8 @@ input:focus {
 .mural {
   position: relative;
   background-color: rgb(252 , 248 , 239);
-  left: 9px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 40%;
   width: 355px;
   height: 270px;
