@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(252 , 222 , 222);
+  text-align: center;
+}
+
+header {
+  background-color: rgb(243 , 205 , 219);
+  padding: 60px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;  
+}
+
+p {
+  font-style: oblique;
+  font-size: 18px;
+  margin-top: 20px;
+  -webkit-animation: fadeIn 2s ease-in-out;
+  -moz-animation: fadeIn 2s ease-in-out;
+  -o-animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;     
+}
+
+#senha {
+  margin-top: 50px;
+  -webkit-animation: fadeIn 1s ease-in-out;
+  -moz-animation: fadeIn 1s ease-in-out;
+  -o-animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1s ease-in-out;  
+}
+
+#start {
+  margin-top: 20px;
+  -webkit-animation: fadeIn 1s ease-in-out;
+  -moz-animation: fadeIn 1s ease-in-out;
+  -o-animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
+  background-color: rgb(174 , 213 , 226);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.click:active {
+  box-shadow: 0 0 3px 3px rgb(174 , 213 , 226);
+}
