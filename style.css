@@ -53,6 +53,7 @@ input:focus {
 
 .mural {
   position: relative;
+  display: table;
   background-color: rgb(252 , 248 , 239);
   margin-left: auto;
   margin-right: auto;
@@ -60,7 +61,7 @@ input:focus {
   width: 355px;
   height: 270px;
   border-radius: 10px;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 .continue {
@@ -69,4 +70,13 @@ input:focus {
   padding: 5px;
   cursor: pointer;
   border-radius: 40px;  
+}
+
+.img-mural {
+  border-radius: 10px;
+}
+
+.txt-mural {
+  display: table-cell;
+  vertical-align: middle;
 }
