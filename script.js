@@ -26,7 +26,7 @@ const txt07 = '<p class="txt-mural">"Agora pensa num pessoal que num bate muito 
 const txt08 = '<p class="txt-mural">"Pois é!"<br>"Agora vamos ver porque os filhos parecem que tem um parafusinho fora da caixola."<br><br>Agora ja aviso que nenhum animal foi maltratado nesta cena!</p>';
 const txt09 = '<p class="txt-mural">kkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkk<br>kkkkkkkkkkkkkkkkk</p>';
 const txt10 = '<p class="txt-mural">"Agora para encerrar vamos ver seu novo bibelô!" <br><br> "A gatinha da vovó!"<br><br> "A gôda, a fôfa, a gachinha da Keeeeeeeeiilaaaa!"<br><br> rsrs</p>';
-const txt11 = '<p class="txt-mural">"Te amo mãe!"<br><br>"Não ficou exatamente como eu queria, porque ainda não aprendi muita coisa, mas quis fazer algo especial."<br> Então se gostou clica no botão!<br><br><a title="WhatsApp" href="https://api.whatsapp.com/send?phone=5521991488742" target="_blank"><img id="zapzap" width="35x" height="35px" src="/whatsapp.png" alt="Ícone WhatsApp"></a></p>';
+const txt11 = '<p class="txt-mural">"Te amo mãe!"<br><br>"Não ficou exatamente como eu queria, porque ainda não aprendi muita coisa, mas quis fazer algo especial."<br> Então se gostou clica no botão!<br><a title="WhatsApp" href="https://api.whatsapp.com/send?phone=5521991488742" target="_blank"><img id="zapzap" width="20x" height="20px" src="/whatsapp.png" alt="Ícone WhatsApp"></a></p>';
 const arrMural = [textInicioMural, txt01, img01, txt02, img02, txt03, img03, txt04, img04, img05, txt05, img06, txt06, img07, txt07, img08, img09, txt08, img10, txt09, txt10, img11, txt11]
 //
 //
@@ -64,6 +64,7 @@ function activeContiune(button) {
             if (quadro.innerHTML === arrMural[arrMural.length - 1]) {
                 button.remove();
                 alert('No Botão do ZapZap!');
+                break;
             } else if (quadro.innerHTML === arrMural[index]) {
                 quadro.innerHTML = arrMural[index + 1];
                 break;
